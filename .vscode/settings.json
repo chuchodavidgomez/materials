@@ -1,0 +1,35 @@
+{
+  "cSpell.ignoreWords": [
+    "Maximo",
+    "aino",
+    "anios",
+    "categoria",
+    "dinamica",
+    "direccion",
+    "electrica",
+    "enumerables",
+    "forin",
+    "hidraulica",
+    "historico",
+    "iteracion",
+    "mapeos",
+    "maximas",
+    "primeng",
+    "selectitem",
+    "subcategoria",
+    "subcategorias",
+    "tecnica",
+    "termica",
+    "validacion"
+  ],
+  "bma-coverage": {
+    "lcovs": [
+      "coverage/lcov.info"
+    ]
+  },
+  "cSpell.language": "en,es,es-ES",
+  "cSpell.words": [
+    "parametro"
+  ],
+  "explorer.compactFolders": false
+}

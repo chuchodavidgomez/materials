@@ -1,0 +1,10 @@
+<mat-sidenav-container>
+  <!-- el sidevab tiene diferentes modos over, push, side  -->
+  <mat-sidenav #sidenav mode="side" [(opened)] = "opened">Sidenav</mat-sidenav>
+  <mat-sidenav-content>Main
+    <button (click)="opened = !opened">toggle open</button>
+    <button (click)="sidenav.open()">open</button>
+    <button (click)="sidenav.close()">close</button>
+    <button (click)="sidenav.toggle()">toggle</button>
+  </mat-sidenav-content>
+</mat-sidenav-container>
