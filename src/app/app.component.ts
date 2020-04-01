@@ -20,8 +20,20 @@ export class AppComponent {
     { url: '/mattoolbar', nombre: 'toolbar' },
     { url: '/matsidenav', nombre: 'sidenav' },
     { url: '/matmenu', nombre: 'menu'},
-    { url: '/list', nombre: 'list'}
+    { url: '/list', nombre: 'list'},
+    { url: '/grid', nombre: 'grid'},
+    { url: '/expansion', nombre: 'expansion'},
+    { url: '/card', nombre: 'card'},
+    { url: '/tabs', nombre: 'tabs'},
+    { url: '/stepper', nombre: 'steper'},
+    { url: '/input', nombre: 'input'},
+    { url: '/select', nombre: 'select'},
+    { url: '/autocomplete', nombre: 'autocomplete'},
+    { url: '/checkbox', nombre: 'checkbox'}
   ];
 
+  public companies2: Item[] = [
+    { url: '/datepicker', nombre: 'datepicker'}
+  ];
 
 }

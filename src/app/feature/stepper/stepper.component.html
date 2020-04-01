@@ -1,0 +1,16 @@
+<!-- Exiting two stepper horzontal and vertical stepper -->
+<!-- can use directives por control, "matStepperPrevius" -->
+<!-- cam use directiva linear  -->
+<!-- el atributo "completed" para habilitar los pasos, el otro atributo es el de optional-->
+<!-- for change at vertical stepper, you can change horizontal for vertical -->
+<mat-horizontal-stepper linear>
+  <mat-step label="shipping addres" completed="true"> <p> Shiping address details </p></mat-step>
+  <mat-step label="billing addres" completed="false" optional>
+    <p> billing addres details </p>
+    <div>
+      <button mat-button matStepperPrevious>back</button>
+      <button mat-button matStepperNext>next</button>
+    </div>
+  </mat-step>
+  <mat-step label="palce order" completed="true"> <p> order details </p></mat-step>
+</mat-horizontal-stepper>

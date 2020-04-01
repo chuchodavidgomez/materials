@@ -11,6 +11,16 @@ import { MattoolbarComponent } from './feature/mattoolbar/mattoolbar.component';
 import { MatsidenavComponent } from './feature/matsidenav/matsidenav.component';
 import { MatmenuComponent } from './feature/matmenu/matmenu.component';
 import { ListComponent } from './feature/list/list.component';
+import { GridComponent } from './feature/grid/grid.component';
+import { ExpansionComponent } from './feature/expansion/expansion.component';
+import { CardComponent } from './feature/card/card.component';
+import { TabsComponent } from './feature/tabs/tabs.component';
+import { StepperComponent } from './feature/stepper/stepper.component';
+import { InputComponent } from './feature/input/input.component';
+import { SelectComponent } from './feature/select/select.component';
+import { AutocompleteComponent } from './feature/autocomplete/autocomplete.component';
+import { CheckboxComponent } from './feature/checkbox/checkbox.component';
+import { DatepickerComponent } from './feature/datepicker/datepicker.component';
 
 
 const routes: Routes = [
@@ -25,6 +35,16 @@ const routes: Routes = [
   { path: 'matsidenav', component: MatsidenavComponent, canActivate: [SecurityGuard]  },
   { path: 'matmenu', component: MatmenuComponent, canActivate: [SecurityGuard]  },
   { path: 'list', component: ListComponent, canActivate: [SecurityGuard]  },
+  { path: 'grid', component: GridComponent, canActivate: [SecurityGuard]  },
+  { path: 'expansion', component: ExpansionComponent, canActivate: [SecurityGuard]  },
+  { path: 'card', component: CardComponent, canActivate: [SecurityGuard]  },
+  { path: 'tabs', component: TabsComponent, canActivate: [SecurityGuard]  },
+  { path: 'stepper', component: StepperComponent, canActivate: [SecurityGuard]  },
+  { path: 'input', component: InputComponent, canActivate: [SecurityGuard]  },
+  { path: 'select', component: SelectComponent, canActivate: [SecurityGuard]  },
+  { path: 'autocomplete', component: AutocompleteComponent, canActivate: [SecurityGuard]  },
+  { path: 'checkbox', component: CheckboxComponent, canActivate: [SecurityGuard]  },
+  { path: 'datepicker', component: DatepickerComponent, canActivate: [SecurityGuard]  },
   { path: 'producto', loadChildren: () => import('./feature/producto/producto.module').then(mod => mod.ProductoModule) }
 
 ];

@@ -1,0 +1,8 @@
+<!-- con startView puedo mostrar el año solamente ej: yer, multi-year -->
+<!-- Si quiero agregar un min y max  [min]="minDate" [max]="maxDate" -->
+<!-- Si quiero quitar los sabados, se debe hacer un filter -->
+<mat-form-field>
+  <input matInput [matDatepicker]="myDatePicker" [matDatepickerFilter]="dateFilter">
+  <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
+  <mat-datepicker #myDatePicker></mat-datepicker>
+</mat-form-field>

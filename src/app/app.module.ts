@@ -16,9 +16,19 @@ import { BadgesComponent } from './feature/badges/badges.component';
 import { ProgressSpinnerComponent } from './feature/progress-spinner/progress-spinner.component';
 import { MattoolbarComponent } from './feature/mattoolbar/mattoolbar.component';
 import { MatsidenavComponent } from './feature/matsidenav/matsidenav.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatmenuComponent } from './feature/matmenu/matmenu.component';
 import { ListComponent } from './feature/list/list.component';
+import { GridComponent } from './feature/grid/grid.component';
+import { ExpansionComponent } from './feature/expansion/expansion.component';
+import { CardComponent } from './feature/card/card.component';
+import { TabsComponent } from './feature/tabs/tabs.component';
+import { StepperComponent } from './feature/stepper/stepper.component';
+import { InputComponent } from './feature/input/input.component';
+import { SelectComponent } from './feature/select/select.component';
+import { AutocompleteComponent } from './feature/autocomplete/autocomplete.component';
+import { CheckboxComponent } from './feature/checkbox/checkbox.component';
+import { DatepickerComponent } from './feature/datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +42,17 @@ import { ListComponent } from './feature/list/list.component';
     MattoolbarComponent,
     MatsidenavComponent,
     MatmenuComponent,
-    ListComponent
+    ListComponent,
+    GridComponent,
+    ExpansionComponent,
+    CardComponent,
+    TabsComponent,
+    StepperComponent,
+    InputComponent,
+    SelectComponent,
+    AutocompleteComponent,
+    CheckboxComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +60,8 @@ import { ListComponent } from './feature/list/list.component';
     ProductoModule,
     CoreModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [CookieService],
     bootstrap: [AppComponent],

@@ -1,0 +1,17 @@
+<!-- si se agrega el atributo multiple, premite seleccionar varias opciones -->
+<mat-form-field>
+  <mat-label>Topic</mat-label>
+  <mat-select [(value)]="selectedValue" multiple>
+    <mat-option>none</mat-option>
+    <mat-optgroup label="web">
+      <mat-option value="Angular">Angular</mat-option>
+      <mat-option value="React">React</mat-option>
+      <mat-option value="Vue">Vue</mat-option>
+    </mat-optgroup>
+    <mat-optgroup label="Mobile">
+      <mat-option value="Ionic">ionic</mat-option>
+      <mat-option value="reactNat">ReactNat</mat-option>
+    </mat-optgroup>
+  </mat-select>
+</mat-form-field>
+{{selectedValue}}
