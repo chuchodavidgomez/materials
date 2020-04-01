@@ -21,6 +21,12 @@ import { SelectComponent } from './feature/select/select.component';
 import { AutocompleteComponent } from './feature/autocomplete/autocomplete.component';
 import { CheckboxComponent } from './feature/checkbox/checkbox.component';
 import { DatepickerComponent } from './feature/datepicker/datepicker.component';
+import { TooltipComponent } from './feature/tooltip/tooltip.component';
+import { SnackbarComponent } from './feature/snackbar/snackbar.component';
+import { DialogsComponent } from './feature/dialogs/dialogs.component';
+import { DialogExampleComponent } from './feature/dialog-example/dialog-example.component';
+import { DatatableComponent } from './feature/datatable/datatable.component';
+import { ScrollingComponent } from './feature/scrolling/scrolling.component';
 
 
 const routes: Routes = [
@@ -45,6 +51,12 @@ const routes: Routes = [
   { path: 'autocomplete', component: AutocompleteComponent, canActivate: [SecurityGuard]  },
   { path: 'checkbox', component: CheckboxComponent, canActivate: [SecurityGuard]  },
   { path: 'datepicker', component: DatepickerComponent, canActivate: [SecurityGuard]  },
+  { path: 'tooltip', component: TooltipComponent, canActivate: [SecurityGuard]  },
+  { path: 'snackbar', component: SnackbarComponent, canActivate: [SecurityGuard]  },
+  { path: 'dialogs', component: DialogsComponent, canActivate: [SecurityGuard]  },
+  { path: 'dialogs-example', component: DialogExampleComponent, canActivate: [SecurityGuard]  },
+  { path: 'datatable', component: DatatableComponent, canActivate: [SecurityGuard]  },
+  { path: 'scrolling', component: ScrollingComponent, canActivate: [SecurityGuard]  },
   { path: 'producto', loadChildren: () => import('./feature/producto/producto.module').then(mod => mod.ProductoModule) }
 
 ];

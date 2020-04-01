@@ -24,7 +24,14 @@ import { MatButtonModule, MatButtonToggleModule, MatIconModule, MatBadgeModule, 
   MatCheckboxModule,
   MatRadioModule,
   MatDatepickerModule,
-  MatNativeDateModule} from '@angular/material';
+  MatNativeDateModule,
+  MatTooltipModule,
+  MatSnackBarModule,
+  MatDialogModule,
+  MatTableModule,
+  MatSortModule,
+  MatPaginatorModule} from '@angular/material';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 const materialComponents = [
   MatButtonModule,
@@ -49,7 +56,14 @@ const materialComponents = [
   MatCheckboxModule,
   MatRadioModule,
   MatDatepickerModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  MatTooltipModule,
+  MatSnackBarModule,
+  MatDialogModule,
+  MatTableModule,
+  MatSortModule,
+  MatPaginatorModule,
+  ScrollingModule
 ];
 
 @NgModule({

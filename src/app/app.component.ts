@@ -33,7 +33,12 @@ export class AppComponent {
   ];
 
   public companies2: Item[] = [
-    { url: '/datepicker', nombre: 'datepicker'}
+    { url: '/datepicker', nombre: 'datepicker'},
+    { url: '/tooltip', nombre: 'tooltip'},
+    { url: '/snackbar', nombre: 'snackbar'},
+    { url: '/dialogs', nombre: 'dialogs'},
+    { url: '/datatable', nombre: 'datatable'},
+    { url: '/scrolling', nombre: 'scrolling'}
   ];
 
 }

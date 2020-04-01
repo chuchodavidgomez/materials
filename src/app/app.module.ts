@@ -29,6 +29,12 @@ import { SelectComponent } from './feature/select/select.component';
 import { AutocompleteComponent } from './feature/autocomplete/autocomplete.component';
 import { CheckboxComponent } from './feature/checkbox/checkbox.component';
 import { DatepickerComponent } from './feature/datepicker/datepicker.component';
+import { TooltipComponent } from './feature/tooltip/tooltip.component';
+import { SnackbarComponent } from './feature/snackbar/snackbar.component';
+import { DialogsComponent } from './feature/dialogs/dialogs.component';
+import { DialogExampleComponent } from './feature/dialog-example/dialog-example.component';
+import { DatatableComponent } from './feature/datatable/datatable.component';
+import { ScrollingComponent } from './feature/scrolling/scrolling.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +58,13 @@ import { DatepickerComponent } from './feature/datepicker/datepicker.component';
     SelectComponent,
     AutocompleteComponent,
     CheckboxComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    TooltipComponent,
+    SnackbarComponent,
+    DialogsComponent,
+    DialogExampleComponent,
+    DatatableComponent,
+    ScrollingComponent
   ],
   imports: [
     BrowserModule,

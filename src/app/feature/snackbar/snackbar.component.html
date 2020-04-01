@@ -1,0 +1,13 @@
+<!-- se puede enviar diferentes acciones; dismiss, cancel -->
+<!-- El ultimo parametro que se envia es el tiempo -->
+<button mat-button (click)="openSnackBar('Item deleted', 'dismiss')">
+  Show snack-bar
+</button>
+
+<button mat-button (click)="openSnackBarWithSubscribe('Item deleted', 'undo')">
+  delete
+</button>
+
+<button mat-button (click)="openCustomSnackBar()">
+  show custom snackbar
+</button>
